@@ -4,14 +4,14 @@ using System.Text;
 
 namespace OpcoesEstruturadas.model
 {
-    class Mocker
+    class Carteira
     {
 
         public IList<Operacao> Operacoes { get; }
         public IList<double> IntervaloPrecos { get; private set; }
         public IList<double> Resultado { get; private set; }
 
-        public Mocker()
+        public Carteira()
         {
             this.Operacoes = new List<Operacao>();
             this.IntervaloPrecos = new List<double>();
